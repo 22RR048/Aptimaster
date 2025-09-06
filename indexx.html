@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AptiMaster - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="full-page"></div>
+  <div class="container">
+    <div class="welcome-text">
+      <h1>Welcome to <span>AptiMaster</span></h1>
+      <p>Master aptitude tests with personalized practice, real-time leaderboards, and progress tracking.</p>
+      <div class="features">
+        <span>📈 Track Progress</span>
+        <span>🏆 Earn Badges</span>
+        <span>👥 Compete</span>
+      </div>
+    </div>
+
+    <div class="login-box">
+      <div class="tabs">
+        <button class="active">Sign In</button>
+        <button>Sign Up</button>
+      </div>
+
+      <div class="msg"></div>
+
+      <!-- Sign In Form -->
+      <form action="login.php" method="POST" class="login-form">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Sign In</button>
+      </form>
+
+      <!-- Sign Up Form -->
+      <form action="signup.php" method="POST" class="signup-form">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Sign Up</button>
+      </form>
+
+      <p>Welcome back! Sign in to continue your journey.</p>
+      <small>By continuing, you agree to our <a href="#">Terms</a> & <a href="#">Privacy Policy</a>.</small>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

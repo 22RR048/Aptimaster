@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f0f1a, #1b1b2e);
+  color: #ddd;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.welcome-text {
+  max-width: 400px;
+}
+
+.welcome-text h1 {
+  font-size: 2.5rem;
+  color: #7f5af0;
+}
+
+.welcome-text span {
+  color: #4cc9f0;
+}
+
+.features span {
+  margin-right: 10px;
+}
+
+.login-box {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 320px;
+}
+
+.login-box .tabs button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.login-box .tabs button.active {
+  background: linear-gradient(to right,#7f5af0,#9b5de5);
+  color: white;
+}
+
+.login-form, .signup-form {
+  display: none;
+  margin-top: 10px;
+}
+
+.login-form input, .signup-form input {
+  display: block;
+  width: 90%;
+  margin: 8px auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.login-form button, .signup-form button {
+  background: #7f5af0;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* small message box */
+.msg {
+  min-height: 18px;
+  margin-bottom: 6px;
+  color: #ffdddd;
+  font-size: 0.9rem;
+}
+
+/* success */
+.msg.success { color: #b7f5c3; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111;
+  color: #fff;
+}
+
+.main-test {
+  text-align: center;
+  margin: 20px;
+}
+
+.start-test {
+  background: #7f5af0;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  width: 250px;
+}
+.login-form { 
+  display: block;
+ }
+.signup-form { 
+  display: none;
+ }
